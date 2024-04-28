@@ -7,8 +7,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile and run your Java program
-                sh 'javac add.java'
-                sh 'java add'
+                 'javac add.java'
+                 'java add'
             }
         }
     }
