@@ -15,10 +15,10 @@ pipeline {
                 tool 'JDK'  // Use the configured JDK tool (replace 'JDK' with your tool name)
                 
                 // Compile Java program
-                sh 'javac Addition.java'
+                sh 'javac add.java'
                 
                 // Run Java program
-                sh 'java Addition'
+                sh 'java add'
             }
         }
     }
